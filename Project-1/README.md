@@ -36,7 +36,7 @@ The following table is a fact table;
 
   1. Run create_tables.py from Notebook by using '%run create_tables.py'
   2. Run etl.py from Notebook by using '%run etl.py' to load data from JSON files in ./data/song_data and ./data/long_data directories.
-  3. Can use test.ipynb notebook to check the data in the relational database. 
+  3. Can use [test.ipynb](./test.ipynb) notebook to check the data in the relational database. 
   
 # Example queries
 
