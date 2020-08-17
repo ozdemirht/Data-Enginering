@@ -29,13 +29,13 @@ The following table is a fact table;
   1. <b>sql_queries.py</b> : create_tables.py and etl.py scripts include. 
   1. <b>create_tables.py</b> : Defines database and tables. One needs to run this script before loading any data.
   1. <b>etl.py</b> : Script extracts, translates, and loads data from json files into tables in PostgreSQL. 
-  1. <b>test.ipynb</b> : Notebook to check the database, tables, and content of each table.
-  1. <b>etl.ipynb</b> : Notebook to test steps of etl processes for each json file. 
+  1. <b>[test.ipynb](./test.ipynb)</b> : Notebook to check the database, tables, and content of each table.
+  1. <b>[etl.ipynb](./etl.ipynb)</b> : Notebook to test steps of etl processes for each json file. 
   
 # How to run?
 
-  1. Run create_tables.py from Notebook by using '%run create_tables.py'
-  2. Run etl.py from Notebook by using '%run etl.py' to load data from JSON files in ./data/song_data and ./data/long_data directories.
+  1. Run [create_tables.py](./create_tables.py) from Notebook by using '%run create_tables.py'
+  2. Run [etl.py](./etl.py) from Notebook by using '%run etl.py' to load data from JSON files in ./data/song_data and ./data/long_data directories.
   3. Can use [test.ipynb](./test.ipynb) notebook to check the data in the relational database. 
   
 # Example queries
