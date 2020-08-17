@@ -20,7 +20,7 @@ The raw data is hosted in the following [AWS S3](https://aws.amazon.com/s3/) buc
  1. Song data: [s3a://udacity-dend/song_data](s3a://udacity-dend/song_data)
  1. Log data: [s3a://udacity-dend/log_data](s3a://udacity-dend/log_data)
 
-![System View](/images/Udacity-Nano-DE2.png)
+![System View](./images/Udacity-Nano-DE2.png)
 __Figure 1__: Overview (AWS S3 as Data Lake)
 
 [PySpark](https://spark.apache.org/docs/latest/api/python/index.html)
@@ -74,10 +74,10 @@ The following [Parquet files](https://parquet.apache.org/) files are for dimensi
   1. <b>time.parquet</b> keeps track of <b>time</b> of song played events.
   1. <b>songs.parquet</b> keeps track of song data, containing the identifier, title, year, duration, and artist identifier (links to <b>artists.parquet</b>).
 
-![Data Flow in ETL](/images/Udacity-Nano-DE-ETL_v2.png)
+![Data Flow in ETL](./images/Udacity-Nano-DE-ETL_v2.png)
 __Figure 2__: ETL: Input and Output
 
-![Data Model](/images/datamodel3.png)
+![Data Model](./images/datamodel3.png)
 __Figure 3__: Star Schema Model
 
 <i>users.parquet</i> has the following columns;
